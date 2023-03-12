@@ -1,0 +1,31 @@
+public class atividade2{
+
+
+    public static void main (String [] args){
+
+
+        System.out.println("oi");
+    }
+
+
+    public int calculofat(int n){
+       
+        return n = n*calculofat(n-1);
+        }
+
+
+
+
+    public int calculasoma(int n){
+        return n = n + calculasoma(n-1);
+    }
+
+
+    public int enesimo(int n) {
+
+
+        return n  = enesimo(n+1)+ enesimo(n-1);
+
+
+    }
+}
